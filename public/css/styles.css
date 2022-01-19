@@ -128,11 +128,32 @@ article {
   padding: 15px;
 }
 
-@media all and (min-width: 361px){
+@media screen and (max-width:361px){
+  .description{
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 361px){
+  article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .burger-menu{
+    display: none;
+  }
   
 }
 
-@media all and (min-width: 769px){
-
+@media screen and (min-width: 769px){
+  article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .burger-menu{
+    display: none;
+  }
 }
 
