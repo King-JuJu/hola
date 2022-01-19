@@ -103,6 +103,7 @@ section.banner img{
 
 main{
   width: 90%;
+  margin: auto;
 }
 
 main section article{
@@ -118,5 +119,20 @@ main section article i,
   color: #39b54a;
 }
 
+article {
+  margin: 10px 0;
+}
 
+.main-article {
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+}
+
+@media all and (min-width: 361px){
+  
+}
+
+@media all and (min-width: 769px){
+
+}
 
