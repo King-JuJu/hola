@@ -128,6 +128,19 @@ article {
   padding: 15px;
 }
 
+.icono {
+  font-size: 2em;
+  text-indent: 10px;
+  text-align: center;
+  color: #1259c3;
+}
+
+.textos {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
 @media screen and (max-width:361px){
   .description{
     display: none;
