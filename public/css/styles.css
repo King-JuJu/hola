@@ -29,7 +29,7 @@ header div.logo{
 }
 
 header div.logo{
-  padding: 10px;
+  padding: 2px;
 }
 header nav{
   font-size: 12px;
@@ -95,7 +95,12 @@ article div.main-article{
 }
 
 .flex-price{
-  display: inline-flex;
+  display: flex;
+  margin-right: 5px;
+}
+
+.flex-price .discount{
+  margin-left: 10px;
 }
 
 h3,
@@ -173,11 +178,28 @@ nav {
 }
 
 .top-header{
-  align-items: flex-start;
+  display: flex;
+  justify-content: center;
 }
 
 .copy-header{
-  align-self: flex-end;
+  text-align: center;
+}
+
+.fa-truck{
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #39b54a;
+  background-color: #FFF;
+  border-radius: 50%;
+  right: 20px;
+  top: -15px;
+  z-index: 1;
+  float: right;
+  margin-top: -19px;
 }
 
 
@@ -196,7 +218,7 @@ nav {
   .copy-header{
     font-size: large;
     max-width: 350px;
-    align-self: center;
+    margin: auto;
   }
   .description{
     display: flex;
