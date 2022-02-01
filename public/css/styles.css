@@ -249,6 +249,15 @@ input[type="reset" i]{
   margin: 20px;
 }
 
+.fa-credit-card:hover{
+  color: green;
+}
+.fa-user-shield:hover{
+  color: green;
+}
+.fa-gift:hover{
+  color: green;
+}
 
 @media screen and (min-width: 769px){
   .top-header{
@@ -325,10 +334,10 @@ header nav ul li{
 }
 .box{
   display: flex;
+  justify-content: space-between;
 }
 .box2{
   display: flex;
   flex-direction: column;
 }
 }
-
